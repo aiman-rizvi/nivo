@@ -184,7 +184,7 @@ const props: ChartProperty[] = [
     },
     {
         key: 'labelSkipSize',
-        help: 'Skip label rendering if node minimal side length is lower than given value, 0 to disable.',
+        help: 'Skip label rendering if node minimal side length is lower than given value, 0 to disable. Does not affect parent label.',
         flavors: allFlavors,
         type: 'number',
         required: false,
